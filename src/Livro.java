@@ -1,4 +1,4 @@
-public class livro {
+public class Livro {
     private String titulo;
     private String autor;
     private int anoPublicacao;
@@ -6,7 +6,7 @@ public class livro {
     private boolean disponivel;
 
     // Construtor
-    public livro(String titulo, String autor, int anoPublicacao, double preco, boolean disponivel) {
+    public Livro(String titulo, String autor, int anoPublicacao, double preco, boolean disponivel) {
         this.titulo = titulo;
         this.autor = autor;
         this.anoPublicacao = anoPublicacao;
